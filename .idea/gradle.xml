@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/facebook-android-sdk-3.14.1/facebook" />
+            <option value="$PROJECT_DIR$/facebook-android-sdk-3.14.1/samples/FriendPickerSample" />
+            <option value="$PROJECT_DIR$/facebook-android-sdk-3.14.1/samples/GraphApiSample" />
+            <option value="$PROJECT_DIR$/facebook-android-sdk-3.14.1/samples/HelloFacebookSample" />
+            <option value="$PROJECT_DIR$/facebook-android-sdk-3.14.1/samples/PlacePickerSample" />
+            <option value="$PROJECT_DIR$/facebook-android-sdk-3.14.1/samples/ProfilePictureSample" />
+            <option value="$PROJECT_DIR$/facebook-android-sdk-3.14.1/samples/RPSSample" />
+            <option value="$PROJECT_DIR$/facebook-android-sdk-3.14.1/samples/Scrumptious" />
+            <option value="$PROJECT_DIR$/facebook-android-sdk-3.14.1/samples/SessionLoginSample" />
+            <option value="$PROJECT_DIR$/facebook-android-sdk-3.14.1/samples/SwitchUserSample" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
+

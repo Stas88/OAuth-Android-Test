@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    >
+
+    <TextView
+        android:id="@+id/facebook_welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="@string/facebook_wellcome_message"
+        android:layout_width="wrap_content"/>
+
+    <TextView
+        android:id="@+id/google_wellcome"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/facebook_welcome"
+        android:layout_height="wrap_content"
+        android:text="@string/google_wellcome_message"
+        android:layout_width="wrap_content"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button_google"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/google_wellcome"
+        android:onClick="onClickGoogleSignIn"
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/sign_out_button_google"
+        android:text="@string/google_sign_out"
+        android:layout_margin="16dp"
+        android:layout_below="@+id/sign_in_button_google"
+        android:onClick="onClickGoogleSignOut"
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <com.facebook.widget.LoginButton
+        android:id="@+id/sign_in_button_facebook"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/sign_out_button_google"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+include ':app', ':FriendPickerSample', ':PlacePickerSample', ':GraphApiSample', ':ProfilePictureSample', ':HelloFacebookSample', ':facebook', ':RPSSample', ':SessionLoginSample', ':SwitchUserSample', ':Scrumptious'
+project(':FriendPickerSample').projectDir = new File('facebook-android-sdk-3.14.1/samples/FriendPickerSample')
+project(':PlacePickerSample').projectDir = new File('facebook-android-sdk-3.14.1/samples/PlacePickerSample')
+project(':GraphApiSample').projectDir = new File('facebook-android-sdk-3.14.1/samples/GraphApiSample')
+project(':ProfilePictureSample').projectDir = new File('facebook-android-sdk-3.14.1/samples/ProfilePictureSample')
+project(':HelloFacebookSample').projectDir = new File('facebook-android-sdk-3.14.1/samples/HelloFacebookSample')
+project(':facebook').projectDir = new File('facebook-android-sdk-3.14.1/facebook')
+project(':RPSSample').projectDir = new File('facebook-android-sdk-3.14.1/samples/RPSSample')
+project(':SessionLoginSample').projectDir = new File('facebook-android-sdk-3.14.1/samples/SessionLoginSample')
+project(':SwitchUserSample').projectDir = new File('facebook-android-sdk-3.14.1/samples/SwitchUserSample')
+project(':Scrumptious').projectDir = new File('facebook-android-sdk-3.14.1/samples/Scrumptious')
